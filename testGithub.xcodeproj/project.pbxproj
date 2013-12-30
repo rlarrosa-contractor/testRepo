@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		433600BA1871BF5700FC29D0 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 433600B91871BF5700FC29D0 /* TestViewController.m */; };
 		4343A76918719FB7009FDDB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4343A76818719FB7009FDDB7 /* Foundation.framework */; };
 		4343A76B18719FB7009FDDB7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4343A76A18719FB7009FDDB7 /* CoreGraphics.framework */; };
 		4343A76D18719FB7009FDDB7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4343A76C18719FB7009FDDB7 /* UIKit.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		433600B81871BF5700FC29D0 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		433600B91871BF5700FC29D0 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		4343A76518719FB7009FDDB7 /* testGithub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testGithub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4343A76818719FB7009FDDB7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4343A76A18719FB7009FDDB7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -122,6 +125,8 @@
 				4343A78118719FB8009FDDB7 /* ViewController.m */,
 				4343A78318719FB8009FDDB7 /* Images.xcassets */,
 				4343A76F18719FB7009FDDB7 /* Supporting Files */,
+				433600B81871BF5700FC29D0 /* TestViewController.h */,
+				433600B91871BF5700FC29D0 /* TestViewController.m */,
 			);
 			path = testGithub;
 			sourceTree = "<group>";
@@ -255,6 +260,7 @@
 			files = (
 				4343A78218719FB8009FDDB7 /* ViewController.m in Sources */,
 				4343A77918719FB8009FDDB7 /* AppDelegate.m in Sources */,
+				433600BA1871BF5700FC29D0 /* TestViewController.m in Sources */,
 				4343A77518719FB7009FDDB7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -474,6 +480,7 @@
 				4343A79C18719FB8009FDDB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4343A79D18719FB8009FDDB7 /* Build configuration list for PBXNativeTarget "testGithubTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +489,7 @@
 				4343A79F18719FB8009FDDB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
